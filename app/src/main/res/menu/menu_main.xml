@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rajendramishra.swipeable.MainActivity">
+    <item
+        android:id="@+id/action_feedback"
+        android:orderInCategory="100"
+        android:title="Feedback"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/LoginOrSignUp"
+        android:orderInCategory="100"
+        android:title="Add Address"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/orders"
+        android:orderInCategory="100"
+        android:title="Your Orders"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/aboutUs"
+        android:orderInCategory="100"
+        android:title="About Us"
+        app:showAsAction="never" />
+</menu>

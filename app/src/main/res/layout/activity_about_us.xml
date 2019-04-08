@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutUS">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textColor="#000"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"/>
+
+
+        <android.support.v7.widget.CardView android:id="@+id/card_view1"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardBackgroundColor="#b1020202"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/large_text"
+        android:layout_margin="@dimen/dimen_10"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:textColor="#fff"/>
+        </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/details"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:text="HOURS OF OPERATION : 8 AM - 8:30 PM EVERYDAY"/>
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

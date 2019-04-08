@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddAddress">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffe100"
+        android:layout_margin="@dimen/dimen_10"
+        android:text="Checkout"
+        android:textSize="15dp"
+        android:onClick="checkout"/>
+
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_10"
+        android:id="@+id/name_book"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add FullName"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#f00"
+            android:inputType="textPersonName"
+            android:layout_margin="@dimen/dimen_10"
+            android:id="@+id/name"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="#ffe100"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen_10"
+        android:text="Add Name"
+        android:textSize="15dp"
+        android:onClick="addName"/>
+
+
+
+
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_10"
+        android:id="@+id/address_book"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add Address"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#f00"
+            android:inputType="textPersonName"
+            android:layout_margin="@dimen/dimen_10"
+            android:id="@+id/address"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="#ffe100"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen_10"
+        android:text="Add Address"
+        android:textSize="15dp"
+        android:onClick="addAddress"/>
+
+
+
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_10"
+        android:id="@+id/phone_book"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add Phone Number"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#f00"
+            android:inputType="number"
+            android:maxLength="10"
+            android:layout_margin="@dimen/dimen_10"
+            android:id="@+id/phoneNumber1"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="#ffe100"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen_10"
+        android:text="Add phone Number"
+        android:textSize="15dp"
+        android:onClick="addNumber"/>
+
+
+
+
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_10"
+        android:id="@+id/mail_book"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add EmailId"
+            android:layout_marginTop="20dp"
+            android:textColorHint="#f00"
+            android:inputType="textEmailAddress"
+            android:layout_margin="@dimen/dimen_10"
+            android:id="@+id/emailId"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="#ffe100"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen_10"
+        android:text="Add email id"
+        android:textSize="15dp"
+        android:onClick="addEmailId"/>
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

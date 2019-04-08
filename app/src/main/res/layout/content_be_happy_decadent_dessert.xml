@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".BeHappyDecadentDessert"
+    tools:showIn="@layout/activity_be_happy_decadent_dessert">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView android:id="@+id/card_view1"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/image_size"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/darkchocolatetrufflecake"
+                    android:layout_marginLeft="@dimen/dimen_10"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dark Chocolate Truffle Cake"
+                        android:textSize="20dp"
+                        android:id="@+id/text1"
+                        android:textColor="#000"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:text="price:-  "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rs:  "
+                            android:textColor="#0355fa"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="140"
+                            android:id="@+id/price1"
+                            android:textColor="#0355fa"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spinner1"
+                            style="@style/spinner_choose"
+                            />
+
+                        <Button
+                            android:id="@+id/b1"
+                            style="@style/add_cart"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:id="@+id/card_view2"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/image_size"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/carrot_cake"
+                    android:layout_marginLeft="@dimen/dimen_10"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Carrot Cake"
+                        android:id="@+id/text2"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:text="price:-  "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rs:  "
+                            android:textColor="#0355fa"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="130"
+                            android:textColor="#0355fa"
+                            android:id="@+id/price2"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spinner2"
+                            style="@style/spinner_choose"
+                            />
+
+                        <Button
+                            android:id="@+id/b2"
+                            style="@style/add_cart"
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:id="@+id/card_view3"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/image_size"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/banoffee_pie"
+                    android:layout_marginLeft="@dimen/dimen_10"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Banoffee Pie"
+                        android:id="@+id/text3"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:text="price:-  "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rs:  "
+                            android:textColor="#0355fa"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="140"
+                            android:textColor="#0355fa"
+                            android:id="@+id/price3"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spinner3"
+                            style="@style/spinner_choose"
+                            />
+
+                        <Button
+                            android:id="@+id/b3"
+                            style="@style/add_cart"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:id="@+id/card_view4"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/image_size"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/tiramisu"
+                    android:layout_marginLeft="@dimen/dimen_10"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tiramisu"
+                        android:id="@+id/text4"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:text="price:-  "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rs:  "
+                            android:textColor="#0355fa"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="190"
+                            android:textColor="#0355fa"
+                            android:id="@+id/price4"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spinner4"
+                            style="@style/spinner_choose"
+                            />
+
+                        <Button
+                            android:id="@+id/b4"
+                            style="@style/add_cart"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:id="@+id/card_view5"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/image_size"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/lemoncreampiesweet"
+                    android:layout_marginLeft="@dimen/dimen_10"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lemon Cream Pie"
+                        android:id="@+id/text5"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:text="price:-  "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rs:  "
+                            android:textColor="#0355fa"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="140"
+                            android:textColor="#0355fa"
+                            android:id="@+id/price5"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spinner5"
+                            style="@style/spinner_choose"
+                            />
+
+                        <Button
+                            android:id="@+id/b5"
+                            style="@style/add_cart"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:id="@+id/card_view6"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/image_size"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/blueberryjpg"
+                    android:layout_marginLeft="@dimen/dimen_10"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Blueberry, Mango and Strawberry"
+                        android:id="@+id/text6"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:text="price:-  "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rs:  "
+                            android:textColor="#0355fa"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="180"
+                            android:textColor="#0355fa"
+                            android:id="@+id/price6"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spinner6"
+                            style="@style/spinner_choose"
+                            />
+
+                        <Button
+                            android:id="@+id/b6"
+                            style="@style/add_cart"
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:id="@+id/card_view7"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/image_size"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/caramel"
+                    android:layout_marginLeft="@dimen/dimen_10"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Caramel Cheesecake"
+                        android:id="@+id/text7"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:text="price:-  "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rs:  "
+                            android:textColor="#0355fa"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="180"
+                            android:textColor="#0355fa"
+                            android:id="@+id/price7"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spinner7"
+                            style="@style/spinner_choose"
+                            />
+
+                        <Button
+                            android:id="@+id/b7"
+                            style="@style/add_cart"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:id="@+id/card_view8"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/image_size"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/mochacheesecake"
+                    android:layout_marginLeft="@dimen/dimen_10"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mocha Cheesecake"
+                        android:id="@+id/text8"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:text="price:-  "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rs:  "
+                            android:textColor="#0355fa"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="180"
+                            android:textColor="#0355fa"
+                            android:id="@+id/price8"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spinner8"
+                            style="@style/spinner_choose"
+                            />
+
+                        <Button
+                            android:id="@+id/b8"
+                            style="@style/add_cart"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:id="@+id/card_view9"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/image_size"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/chocolatetoffeebar"
+                    android:layout_marginLeft="@dimen/dimen_10"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dimen_10">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chocolate Toffee Bar"
+                        android:textSize="20dp"
+                        android:id="@+id/text9"
+                        android:textColor="#000"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:text="price:-  "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rs:  "
+                            android:textColor="#0355fa"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="130"
+                            android:textColor="#0355fa"
+                            android:id="@+id/price9"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <Spinner
+                            android:id="@+id/spinner9"
+                            style="@style/spinner_choose"
+                            />
+
+                        <Button
+                            android:id="@+id/b9"
+                            style="@style/add_cart"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

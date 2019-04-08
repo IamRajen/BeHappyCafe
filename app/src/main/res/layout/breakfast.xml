@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scroolview"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView android:id="@+id/card_view1"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            card_view:cardBackgroundColor="#b1b3c8c9"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="goToast"
+                android:background="@drawable/homemade">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="100dp"
+                    android:onClick="goToast"
+                    android:background="#ab1f2833">
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Homemade Brown Bread Toast"
+                        android:textSize="18sp"
+                        android:onClick="goToast"
+                        android:textColor="#66fcf1"
+                        android:layout_marginLeft="20dp"
+                        />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView android:id="@+id/card_view2"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            card_view:cardBackgroundColor="#b1b3c8c9"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="goGarnole"
+                android:background="@drawable/granola2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:orientation="horizontal"
+                    android:onClick="goGarnole"
+                    android:layout_marginTop="100dp"
+                    android:background="#ab1f2833">
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Garnole"
+                        android:textSize="18sp"
+                        android:onClick="goGarnole"
+                        android:textColor="#66fcf1"
+                        android:layout_marginLeft="20dp"
+                        />
+                </LinearLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView android:id="@+id/card_view3"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            card_view:cardBackgroundColor="#b1b3c8c9"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="goEggs"
+                android:background="@drawable/eggs">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="100dp"
+                    android:onClick="goEggs"
+                    android:background="#ab1f2833">
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Eggs"
+                        android:textSize="18sp"
+                        android:onClick="goEggs"
+                        android:textColor="#66fcf1"
+                        android:layout_marginLeft="20dp"
+                        />
+                </LinearLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView android:id="@+id/card_view4"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            card_view:cardBackgroundColor="#b1b3c8c9"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="goOats"
+                android:background="@drawable/oakmeal1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:orientation="horizontal"
+                    android:onClick="goOats"
+                    android:layout_marginTop="100dp"
+                    android:background="#ab1f2833">
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Oatmeal Porridge"
+                        android:textSize="18sp"
+                        android:onClick="goOats"
+                        android:textColor="#66fcf1"
+                        android:layout_marginLeft="20dp"
+                        />
+                </LinearLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView android:id="@+id/card_view5"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            card_view:cardBackgroundColor="#b1b3c8c9"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="goFruits"
+                android:background="@drawable/fresh_fruit">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:orientation="horizontal"
+                    android:onClick="goFruits"
+                    android:layout_marginTop="100dp"
+                    android:background="#ab1f2833">
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fresh Fruit Salad"
+                        android:textSize="18sp"
+                        android:onClick="goFruits"
+                        android:textColor="#66fcf1"
+                        android:layout_marginLeft="20dp"
+                        />
+                </LinearLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView android:id="@+id/card_view6"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            card_view:cardBackgroundColor="#b1b3c8c9"
+            card_view:cardCornerRadius="15dp"
+            card_view:cardElevation="5dp"
+            card_view:cardUseCompatPadding="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="goSideOrder"
+                android:background="@drawable/plain_curd">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="100dp"
+                    android:onClick="goSideOrder"
+                    android:background="#ab1f2833">
+                    <TextView
+                        android:id="@+id/text6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Side Orders"
+                        android:textSize="18sp"
+                        android:onClick="goSideOrder"
+                        android:textColor="#66fcf1"
+                        android:layout_marginLeft="20dp"
+                        />
+                </LinearLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
